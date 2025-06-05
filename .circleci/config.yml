@@ -19,6 +19,12 @@ jobs:
             pip install python-dotenv pyyaml
 
       - run:
+          name: Check .env exists
+          command: |
+            ls -la
+            cat .env || echo ".env not found"
+
+      - run:
           name: Generate config.yml from .env
           command: |
             . venv/bin/activate

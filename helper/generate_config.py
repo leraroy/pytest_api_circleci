@@ -8,6 +8,7 @@ def absolute_path(filename):
     path_body = project_root / '.circleci' / filename
     return path_body
 
+
 with open(f"{absolute_path('config_template.yml')}") as f:
     template = Template(f.read())
 
