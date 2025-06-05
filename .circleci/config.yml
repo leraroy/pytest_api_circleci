@@ -21,7 +21,7 @@ jobs:
           name: Generate config.yml from .env
           command: |
             . venv/bin/activate
-            python config.py
+            python helper/config.py
 
       - run:
           name: run tests
