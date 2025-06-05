@@ -20,6 +20,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            export $(cat .env | xargs)
             pytest --template=html1/index.html --report=report.html
       - store_artifacts:
           path: report.html
