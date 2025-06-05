@@ -16,13 +16,6 @@ jobs:
           command: |
             . venv/bin/activate
             pip install -r requirements.txt
-            pip install python-dotenv pyyaml
-
-      - run:
-          name: Generate config.yml from .env
-          command: |
-            . venv/bin/activate
-            python helper/generate_config.py
 
       - run:
           name: run tests
