@@ -4,6 +4,8 @@ from string import Template
 from pathlib import Path
 from config import *
 
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path)
 def absolute_path(filename):
     project_root = Path(__file__).resolve().parent.parent
     path_body = project_root / '.circleci' / filename
