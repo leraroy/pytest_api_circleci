@@ -1,6 +1,0 @@
-2025-06-05 15:04:18 DEBUG Starting new HTTPS connection (1): api.clickup.com:443
-2025-06-05 15:04:19 DEBUG https://api.clickup.com:443 "POST /api/v2/team/90151254704/goal HTTP/1.1" 200 677
-2025-06-05 15:04:19 DEBUG Starting new HTTPS connection (1): api.clickup.com:443
-2025-06-05 15:04:19 DEBUG https://api.clickup.com:443 "GET /api/v2/goal/9f9edad4-dc49-4a09-9e25-5aaafd32e684 HTTP/1.1" 200 677
-2025-06-05 15:04:19 DEBUG Starting new HTTPS connection (1): api.clickup.com:443
-2025-06-05 15:04:20 DEBUG https://api.clickup.com:443 "DELETE /api/v2/goal/9f9edad4-dc49-4a09-9e25-5aaafd32e684 HTTP/1.1" 200 2
